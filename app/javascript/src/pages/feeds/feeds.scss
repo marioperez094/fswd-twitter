@@ -1,0 +1,13 @@
+.feed-content {
+  margin-top: -100vh;
+  position: relative;
+}
+
+#feed-background {
+  min-height: calc(100vh);
+  background-image: url(https://abs.twimg.com/images/themes/theme1/bg.png);
+  background-repeat: no-repeat;
+  position: sticky;
+  top: 0;
+  background-color: #C0DEED;
+}

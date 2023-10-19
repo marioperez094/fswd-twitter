@@ -6,6 +6,7 @@ const customConfig = {
   resolve: {
     alias: {
       '@src': path.resolve(__dirname, '..', '..', 'app/javascript/src'),
+      '@pages': path.resolve(__dirname, '..', '..', 'app/javascript/src/pages'),
     }
   }
 }

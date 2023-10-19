@@ -1,0 +1,25 @@
+#slider {
+  background-size: cover;
+  background-position: center bottom;
+  min-height: 100vh;
+  animation-name: slider;
+  animation-duration: 5s;
+  transition: opacity ease-in-out;
+}
+
+.image0 {
+  background-image: url(../../../../assets/images/daniela-cuevas-t7YycgAoVSw-unsplash.jpg);
+}
+
+.image1 {
+  background-image: url(../../../../assets/images/pine-watt-2Hzmz15wGik-unsplash.jpg);
+}
+
+@keyframes slider {
+  from {
+    opacity: 0
+  }
+  to {
+    opacity: 1;
+  }
+}

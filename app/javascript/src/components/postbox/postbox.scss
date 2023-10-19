@@ -1,0 +1,20 @@
+.post-box {
+  border: 15px solid #C0DEED;
+  border-radius: 10px;
+  color: gray;
+  width: 90%;
+  background-color: #C0DEED;
+
+  textarea {
+    width: 100%;
+    height: 100px;
+    color: gray;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .btn-primary {
+    background-color: #337ab7;
+    font-weight: 500;
+  }
+}
