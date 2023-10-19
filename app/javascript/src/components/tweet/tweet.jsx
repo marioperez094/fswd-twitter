@@ -27,7 +27,7 @@ function Tweet (props) {
           : null
         }
         <div className='col-12'>
-          {tweet.image && <div><img src={tweet.image}/></div>}
+          {tweet.image && <div><img src={tweet.image} className='img img-responsive w-100'/></div>}
           {tweet.message}
         </div>
       </div>
